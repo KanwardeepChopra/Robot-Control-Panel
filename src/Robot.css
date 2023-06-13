@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+  
+  .grid-container > div {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .robot-position {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .movement-log {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .direction-button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
